@@ -105,7 +105,7 @@ export default function Hero() {
                             style={{ transitionDelay: '0.2s' }}
                         >
                             {/* <div className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></div> */}
-                            The Digital Marketing Agency For You
+                            *The Digital Marketing Agency For You
                         </div>
 
                         {/* Main Headline */}

@@ -3,19 +3,19 @@ import { motion } from "framer-motion";
 const brands = [
     {
         name: "BLVCK",
-        image: "https://via.placeholder.com/400x250?text=BLVCK+Brand",
+        image: "/EntroWebLogo.png",
     },
     {
         name: "FREDI",
-        image: "https://via.placeholder.com/400x250?text=FREDI+Brand",
+        image: "/hero.jpg",
     },
     {
         name: "CREAM",
-        image: "https://via.placeholder.com/400x250?text=CREAM+Brand",
+        image: "/EntroWebLogo.png",
     },
     {
         name: "APOLLO",
-        image: "https://via.placeholder.com/400x250?text=APOLLO+Brand",
+        image: "/hero.jpg",
     },
 ];
 

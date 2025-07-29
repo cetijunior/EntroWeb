@@ -11,11 +11,13 @@ import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="font-sans -mt-20">
       <Navbar />
+      <ScrollToTop />
       <main className="pt-20">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -34,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

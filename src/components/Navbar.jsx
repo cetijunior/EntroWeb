@@ -44,11 +44,18 @@ export default function Navbar() {
                 {/* Logo */}
                 <div className="cursor-pointer">
                     <img
-                        onClick={() => navigate("/")}
-                        className="h-12 w-auto"
+                        onClick={() => {
+                            if (location.pathname === "/") {
+                                window.scrollTo({ top: 0, behavior: "smooth" });
+                            } else {
+                                navigate("/");
+                            }
+                        }}
+                        className="h-12 w-auto cursor-pointer"
                         src="/EntroWebLogo.png"
-                        alt="Waves"
+                        alt="EntroWeb Logo"
                     />
+
                 </div>
 
                 {/* Desktop Menu */}
@@ -164,7 +171,7 @@ export default function Navbar() {
                             </div>
 
                             {/* Footer */}
-                            <div className="flex justify-center space-x-4 items-center text-center mb-2 rounded-t-2xl mx-2 text-xs text-white/80 py-4 border-t border-white/20 bg-white/10 backdrop-blur-md">
+                            <div className="flex justify-center space-x-4 items-center text-center pb-20 rounded-t-2xl mx-2 text-xs text-white/80 py-4 border-t border-white/20 bg-white/10 backdrop-blur-md">
                                 <img
                                     className="animate-spin size-10"
                                     src="/CALogo.png" />
