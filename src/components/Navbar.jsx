@@ -4,6 +4,10 @@ import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import Galaxy from "./Galaxy";
 
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
+
+
 export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
     const [mobileOpen, setMobileOpen] = useState(false);
@@ -29,6 +33,15 @@ export default function Navbar() {
         navigate(path);
         setMobileOpen(false);
     };
+
+
+    const { i18n } = useTranslation();
+
+    const changeLanguage = (lang) => {
+        i18n.changeLanguage(lang);
+    };
+
+
 
     return (
         <header
@@ -84,9 +97,16 @@ export default function Navbar() {
                 </ul>
 
 
+                {/* Language Selector & CTA */}
+                <div className="hidden md:flex items-center gap-4">
+                    {/* Language Dropdown */}
+                    <LanguageSwitcher
+                        currentLang={i18n.language}
+                        onChange={(lang) => i18n.changeLanguage(lang)}
+                    />
 
-                {/* Desktop CTA */}
-                <div className="hidden md:block">
+
+                    {/* CTA */}
                     <button
                         onClick={() => navigate("/contact")}
                         className="bg-indigo-600 text-white px-5 py-2 rounded-full font-semibold hover:bg-indigo-700 transition"
@@ -94,6 +114,7 @@ export default function Navbar() {
                         Contact us
                     </button>
                 </div>
+
 
                 {/* Mobile Menu Toggle */}
                 <div className="md:hidden">
@@ -160,6 +181,16 @@ export default function Navbar() {
                                 <hr className="border-white/30 my-6" />
 
                                 {/* CTA */}
+                                {/* Language Switcher */}
+                                <div className="pt-6">
+                                    <LanguageSwitcher
+                                        isMobile
+                                        currentLang={i18n.language}
+                                        onChange={(lang) => i18n.changeLanguage(lang)}
+                                    />
+                                </div>
+
+
                                 <div className="flex justify-end items-end">
                                     <button
                                         onClick={() => handleNav("/contact")}
@@ -169,6 +200,7 @@ export default function Navbar() {
                                     </button>
                                 </div>
                             </div>
+
 
                             {/* Footer */}
                             <div className="flex justify-center space-x-4 items-center text-center pb-20 rounded-t-2xl mx-2 text-xs text-white/80 py-4 border-t border-white/20 bg-white/10 backdrop-blur-md">
