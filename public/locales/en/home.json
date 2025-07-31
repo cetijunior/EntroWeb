@@ -1,38 +1,45 @@
 {
-    "hero": {
-        "badge": "*The Digital Marketing Agency For You",
-        "headline": "We Build Brands That Dominate",
-        "subheadline": "Your premium partner for <1>strategy</1>, <3>design</3>, and <5>digital experiences</5> that convert visitors into loyal customers.",
-        "button1": "🚀 Scale Your Business",
-        "button2": "▶ See Our Results",
-        "stats": {
-            "brands": {
-                "value": "150+",
-                "label": "Brands Transformed"
-            },
-            "roi": {
-                "value": "500%",
-                "label": "Average ROI Increase"
-            },
-            "support": {
-                "value": "24/7",
-                "label": "Support & Strategy"
-            }
-        }
-    },
-    "brands": {
-        "title": "Our Work With Global Brands",
-        "subtitle": "We craft unforgettable branding experiences for industry-leading names across fashion, tech, and lifestyle."
-    },
-    "servicesIntro": {
-        "badge": "Premium Digital Solutions",
-        "title": "Our Services",
-        "subtitle": "We deliver comprehensive digital solutions that transform your business, drive growth, and create lasting competitive advantages in the digital landscape."
-    },
-    "cta": {
-        "headline": "Ready to <1>Elevate</1> Your Business?",
-        "paragraph": "Let's create something extraordinary together. Our team is ready to bring your vision to life with cutting-edge solutions.",
-        "buttonStart": "Start Your Project",
-        "buttonWork": "View Our Work"
+  "hero": {
+    "badge": "*The Digital Marketing Agency For You",
+    "headline": "We Build Brands That Dominate",
+    "subheadline": "Your premium partner for <1>strategy</1>, <3>design</3>, and <5>digital experiences</5> that convert visitors into loyal customers.",
+    "button1": "🚀 Scale Your Business",
+    "button2": "▶ See Our Results",
+    "stats": {
+      "brands": {
+        "value": "150+",
+        "label": "Brands Transformed"
+      },
+      "roi": {
+        "value": "500%",
+        "label": "Average ROI Increase"
+      },
+      "support": {
+        "value": "24/7",
+        "label": "Support & Strategy"
+      }
     }
+  },
+  "brands": {
+    "title": "Our Work With Global Brands",
+    "subtitle": "We craft unforgettable branding experiences for industry-leading names across fashion, tech, and lifestyle."
+  },
+  "servicesIntro": {
+    "badge": "Premium Digital Solutions",
+    "title": "Our Services",
+    "subtitle": "We deliver comprehensive digital solutions that transform your business, drive growth, and create lasting competitive advantages in the digital landscape."
+  },
+  "cta": {
+    "headline": "Ready to <1>Elevate</1> Your Business?",
+    "paragraph": "Let's create something extraordinary together. Our team is ready to bring your vision to life with cutting-edge solutions.",
+    "buttonStart": "Start Your Project",
+    "buttonWork": "View Our Work"
+  },
+  "blog": {
+    "badge": "Stay Informed",
+    "title": "Latest Insights",
+    "description": "Explore our latest blog posts to stay updated on digital marketing trends, SEO tips, and more.",
+    "readMore": "Read More",
+    "viewAll": "View All Posts"
+  }
 }

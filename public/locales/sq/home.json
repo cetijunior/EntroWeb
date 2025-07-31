@@ -1,45 +1,45 @@
 {
-    "hero": {
-        "badge": "*Agjencia Digjitale për Ty",
-        "headline": "Ndërtojmë Brande Që Dominojnë",
-        "subheadline": "Partneri juaj premium për <1>strategji</1>, <3>design</3> dhe <5>përvoja digjitale</5> që i shndërrojnë vizitorët në klientë besnikë.",
-        "button1": "🚀 Rrite Biznesin Tënd",
-        "button2": "▶ Shiko Rezultatet Tona",
-        "stats": {
-            "brands": {
-                "value": "150+",
-                "label": "Brande të Transformuara"
-            },
-            "roi": {
-                "value": "500%",
-                "label": "Rritje Mesatare e ROI-së"
-            },
-            "support": {
-                "value": "24/7",
-                "label": "Mbështetje & Strategji"
-            }
-        }
-    },
-    "brands": {
-        "title": "Puna Jonë me Brande Ndërkombëtare",
-        "subtitle": "Ne krijojmë eksperienca të paharrueshme të branding-ut për emrat lider në modë, teknologji dhe stil jetese."
-    },
-    "servicesIntro": {
-        "badge": "Zgjidhje Digjitale Premium",
-        "title": "Shërbimet Tona",
-        "subtitle": "Ne ofrojmë zgjidhje digjitale gjithëpërfshirëse që e transformojnë biznesin tuaj, rrisin rritjen dhe krijojnë përparësi konkurruese afatgjata në tregun digjital."
-    },
-    "cta": {
-        "headline": "Gati për të <1>Rritur</1> Biznesin Tënd?",
-        "paragraph": "Le të krijojmë diçka të jashtëzakonshme bashkë. Ekipi ynë është gati ta sjellë vizionin tënd në jetë me zgjidhje të avancuara.",
-        "buttonStart": "Fillo Projektin Tënd",
-        "buttonWork": "Shiko Punët Tona"
-    },
-    
-    "blog": {
-        "title": "Ultime Novità",
-        "description": "Scopri i nostri ultimi post sul blog per rimanere aggiornato sulle tendenze del marketing digitale, consigli SEO e altro ancora.",
-        "readMore": "Leggi di Più",
-        "viewAll": "Vedi Tutti i Post"
+  "hero": {
+    "badge": "*Agjencia e Marketingut Digjital për Ju",
+    "headline": "Ne Ndërtojmë Marka që Dominojnë",
+    "subheadline": "Partneri juaj premium për <1>strategji</1>, <3>dizajn</3> dhe <5>përvoja digjitale</5> që kthejnë vizitorët në klientë besnikë.",
+    "button1": "🚀 Rrit Biznesin Tënd",
+    "button2": "▶ Shih Rezultatet Tona",
+    "stats": {
+      "brands": {
+        "value": "150+",
+        "label": "Marka të Transformuara"
+      },
+      "roi": {
+        "value": "500%",
+        "label": "Rritje Mesatare e ROI-t"
+      },
+      "support": {
+        "value": "24/7",
+        "label": "Mbështetje dhe Strategji"
+      }
     }
+  },
+  "brands": {
+    "title": "Puna Jonë me Marka Globale",
+    "subtitle": "Ne krijojmë përvoja të paharrueshme të markës për emra lider në industritë e modës, teknologjisë dhe stilit të jetës."
+  },
+  "servicesIntro": {
+    "badge": "Zgjidhje Digjitale Premium",
+    "title": "Shërbimet Tona",
+    "subtitle": "Ne ofrojmë zgjidhje digjitale gjithëpërfshirëse që transformojnë biznesin tuaj, nxisin rritjen dhe krijojnë avantazhe konkuruese të qëndrueshme në peizazhin digjital."
+  },
+  "cta": {
+    "headline": "Gati për të <1>Ngritur</1> Biznesin Tënd?",
+    "paragraph": "Le të krijojmë diçka të jashtëzakonshme së bashku. Ekipi ynë është gati të sjellë në jetë vizionin tuaj me zgjidhje inovative.",
+    "buttonStart": "Fillo Projektin Tënd",
+    "buttonWork": "Shiko Punën Tonë"
+  },
+  "blog": {
+    "badge": "Qëndro i Informuar",
+    "title": "Njohuritë e Fundit",
+    "description": "Eksploro postimet tona më të fundit në blog për të qëndruar i përditësuar me trendet e marketingut digjital, këshilla për SEO dhe më shumë.",
+    "readMore": "Lexo Më Shumë",
+    "viewAll": "Shiko Të Gjitha Postimet"
+  }
 }

@@ -11,7 +11,7 @@ i18n
     .init({
         fallbackLng: "en",
         debug: true,
-        ns: ["home", "navbar", "services"],
+        ns: ["home","about", "blog", "footer", "navbar", "services"],
         defaultNS: "home",
         interpolation: {
             escapeValue: false,
