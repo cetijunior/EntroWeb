@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-
-// SVG Graphics
+import { motion } from "framer-motion";
 import StrategyGraphic from "../graphics/StrategyGraphic";
 import MarketingGraphic from "../graphics/MarketingGraphic";
 import DesignGraphic from "../graphics/DesignGraphic";
@@ -40,31 +39,77 @@ export default function Services() {
 		},
 	};
 
+	// Framer Motion animation variants
+	const fadeInUp = {
+		hidden: { opacity: 0, y: 40 },
+		visible: {
+			opacity: 1,
+			y: 0,
+			transition: { duration: 0.8, ease: "easeOut" },
+		},
+	};
+
+	const slideInLeft = {
+		hidden: { opacity: 0, x: -30 },
+		visible: {
+			opacity: 1,
+			x: 0,
+			transition: { duration: 0.5, ease: "easeOut" },
+		},
+	};
+
+	const staggerContainer = {
+		hidden: { opacity: 0 },
+		visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
+	};
+
 	return (
 		<div className="relative min-h-screen bg-white/60">
 			{/* Background Component */}
-			<div className="absolute inset-0 -z-20 opacity-100 h-full">
+			<div className="absolute inset-0 -z-20 opacity-70 h-full">
 				<BG centerText="EntroWeb" subtitle="Digital Marketing Solutions" />
 			</div>
 
 			{/* Header */}
-			<div className="bg-white/ py-20">
+			<motion.div
+				initial="hidden"
+				animate="visible"
+				variants={staggerContainer}
+				className="bg-white/ py-20 relative z-10"
+			>
 				<div className="max-w-7xl mx-auto px-6 text-center">
-					<span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-sm font-semibold tracking-wide uppercase">
+					<motion.span
+						variants={fadeInUp}
+						className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-sm font-semibold tracking-wide uppercase"
+					>
 						{t("servicesIntro.badge")}
-					</span>
-					<h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+					</motion.span>
+					<motion.h1
+						variants={fadeInUp}
+						className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight"
+					>
 						{t("servicesIntro.title")}
-					</h1>
-					<p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+					</motion.h1>
+					<motion.p
+						variants={fadeInUp}
+						className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
+					>
 						{t("servicesIntro.subtitle")}
-					</p>
-					<div className="mt-8 w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
+					</motion.p>
+					<motion.div
+						variants={fadeInUp}
+						className="mt-8 w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"
+					></motion.div>
 				</div>
-			</div>
+			</motion.div>
 
 			{/* Service Blocks */}
-			<div className="py-20 bg-transparent relative z-10">
+			<motion.div
+				initial="hidden"
+				animate="visible"
+				variants={staggerContainer}
+				className="py-20 bg-transparent relative z-10"
+			>
 				<div className="max-w-7xl mx-auto px-6">
 					{serviceKeys.map((key, idx) => {
 						const service = t(`${key}`, { returnObjects: true });
@@ -72,19 +117,17 @@ export default function Services() {
 						const isEven = idx % 2 === 0;
 
 						return (
-							<div
+							<motion.div
 								key={key}
+								variants={fadeInUp}
 								className={`flex flex-col ${
 									isEven ? "lg:flex-row" : "lg:flex-row-reverse"
 								} items-center justify-center gap-16 mb-32 last:mb-0 max-w-6xl mx-auto`}
 								onMouseEnter={() => setHoveredCard(idx)}
 								onMouseLeave={() => setHoveredCard(null)}
-								style={{
-									animation: `fadeInUp 0.8s ease-out ${idx * 0.2}s both`,
-								}}
 							>
 								{/* Text Block */}
-								<div className="flex-1 lg:max-w-lg">
+								<motion.div variants={fadeInUp} className="flex-1 lg:max-w-lg">
 									<div className="relative">
 										<div
 											className={`inline-block px-4 py-2 bg-gradient-to-r ${gradientMap[key].bg} rounded-full mb-6`}
@@ -95,26 +138,18 @@ export default function Services() {
 												0{idx + 1}
 											</span>
 										</div>
-
 										<h2 className="text-4xl font-bold text-gray-900 mb-4">
 											{service.title}
 										</h2>
-
 										<p className="text-lg text-gray-600 mb-8 leading-relaxed">
 											{service.description}
 										</p>
-
 										<div className="space-y-4">
 											{service.points.map((point, i) => (
-												<div
+												<motion.div
 													key={i}
+													variants={hoveredCard === idx ? slideInLeft : {}}
 													className="flex items-center hover:scale-105 transition-all duration-300"
-													style={{
-														animation:
-															hoveredCard === idx
-																? `slideInLeft 0.5s ease-out ${i * 0.1}s both`
-																: "none",
-													}}
 												>
 													<div
 														className={`w-10 h-[3px] rounded-full bg-gradient-to-r ${gradientMap[key].main} mr-4 flex-shrink-0 shadow-lg`}
@@ -122,14 +157,13 @@ export default function Services() {
 													<span className="text-gray-700 font-medium">
 														{point}
 													</span>
-												</div>
+												</motion.div>
 											))}
 										</div>
-
 										<button
-											className={`mt-8 inline-flex items-center px-6 py-3 bg-gradient-to-r ${gradientMap[key].main} text-white font-semibold rounded-full`}
+											className={`mt-8 inline-flex items-center px-6 py-3 bg-gradient-to-r ${gradientMap[key].main} text-white font-semibold rounded-full hover:scale-105 transition-transform duration-300`}
 										>
-											Learn More
+											{t("learnMore", "Learn More")}
 											<svg
 												className="ml-2 w-5 h-5"
 												fill="none"
@@ -145,48 +179,27 @@ export default function Services() {
 											</svg>
 										</button>
 									</div>
-								</div>
+								</motion.div>
 
 								{/* Graphic Block */}
-								<div className="flex-1 lg:max-w-lg">
+								<motion.div
+									variants={fadeInUp}
+									className="flex-1 lg:max-w-lg"
+									whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
+								>
 									<div
 										className={`relative bg-gradient-to-br ${gradientMap[key].bg} rounded-3xl p-8 shadow-xl`}
 									>
 										<GraphicComponent />
 									</div>
-								</div>
-							</div>
+								</motion.div>
+							</motion.div>
 						);
 					})}
 				</div>
-			</div>
+			</motion.div>
 
 			<CTA />
-
-			{/* Optional Animation Styles */}
-			<style jsx>{`
-				@keyframes fadeInUp {
-					from {
-						opacity: 0;
-						transform: translateY(40px);
-					}
-					to {
-						opacity: 1;
-						transform: translateY(0);
-					}
-				}
-
-				@keyframes slideInLeft {
-					from {
-						opacity: 0;
-						transform: translateX(-30px);
-					}
-					to {
-						opacity: 1;
-						transform: translateX(0);
-					}
-				}
-			`}</style>
 		</div>
 	);
 }

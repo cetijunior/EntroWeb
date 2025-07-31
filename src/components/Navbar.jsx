@@ -2,10 +2,11 @@ import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
-import Galaxy from "./Galaxy";
+// import Galaxy from "./Galaxy";
 
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
+import DarkVeil from "./DarkVeil";
 
 export default function Navbar() {
 	const [scrolled, setScrolled] = useState(false);
@@ -132,14 +133,8 @@ export default function Navbar() {
 					>
 						{/* Galaxy Background Layer */}
 						<div className="absolute bg-black inset-0 z-0 rounded-2xl overflow-hidden border-2 sm:border-0 border-violet-950">
-							<Galaxy
-								mouseRepulsion={true}
-								mouseInteraction={true}
-								density={1.5}
-								glowIntensity={0.5}
-								saturation={0.8}
-								hueShift={240}
-							/>
+							<DarkVeil />
+
 							{/* Frosted Glass Overlay */}
 							<div className="absolute inset-0 bg-white/10 backdrop-blur-[6px]" />
 						</div>
