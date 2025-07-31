@@ -1,0 +1,59 @@
+{
+    "servicesIntro": {
+        "badge": "Zgjidhje Digjitale Premium",
+        "title": "Shërbimet Tona",
+        "subtitle": "Ne ofrojmë zgjidhje të plota digjitale që e transformojnë biznesin tuaj, nxisin rritjen dhe krijojnë avantazhe konkurruese të qëndrueshme në peizazhin digjital."
+    },
+    "strategy": {
+        "title": "Shërbime të Strategjisë",
+        "description": "Strategji të bazuara në të dhëna që e pozicionojnë brandin tuaj përpara konkurrencës dhe krijojnë rrugë zhvillimi të qëndrueshme.",
+        "points": [
+            "Kërkim tregu dhe konkurues",
+            "Strategji për CRM dhe funnel të shitjes",
+            "Pozicionimi dhe mesazhi i brandit",
+            "Konsulencë UX",
+            "Strategji marketingu",
+            "Automatizim"
+        ]
+    },
+    "marketing": {
+        "title": "Shërbime të Marketingut",
+        "description": "Zgjidhje të plota marketingu digjital që rrisin angazhimin, gjenerojnë klientë dhe maksimizojnë ROI-në tuaj.",
+        "points": [
+            "Fushata të marketingut digjital",
+            "Rritja e marrëdhënieve me klientët",
+            "Personazhe marketingu",
+            "Branding",
+            "SEO",
+            "Krijim përmbajtjeje"
+        ]
+    },
+    "design": {
+        "title": "Shërbime të Dizajnit",
+        "description": "Dizajne të bukura dhe funksionale që tërheqin audiencën dhe ofrojnë përvoja mbresëlënëse për përdoruesit.",
+        "points": [
+            "Testim i përdoruesit dhe persona",
+            "Wireframing dhe prototipe",
+            "Dizajn i faqes së internetit",
+            "Dizajn grafik për print",
+            "Animacione",
+            "UI/UX Dizajn"
+        ]
+    },
+    "development": {
+        "title": "Shërbime të Zhvillimit",
+        "description": "Zgjidhje të fuqishme dhe të shkallëzueshme zhvillimi që e sjellin vizionin tuaj në jetë me teknologji të përparuara.",
+        "points": [
+            "Mirëmbajtje dhe hostim i faqes",
+            "Migrim i të dhënave dhe platformave",
+            "Zbatim i CRM",
+            "Ndërtim i faqeve të internetit"
+        ]
+    },
+    "cta": {
+        "headline": "Gati për të <1>Zhvilluar</1> Biznesin Tënd?",
+        "paragraph": "Le të krijojmë diçka të jashtëzakonshme bashkë. Ekipi ynë është gati ta sjellë vizionin tënd në realitet me zgjidhje moderne.",
+        "buttonStart": "Fillo Projektin Tënd",
+        "buttonWork": "Shiko Punët Tona"
+    }
+}

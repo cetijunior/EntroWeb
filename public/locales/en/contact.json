@@ -1,0 +1,22 @@
+{
+    "badge": "Let's Connect",
+    "headline": {
+        "prefix": "Ready to create",
+        "highlight": "something amazing?"
+    },
+    "description": "Transform your vision into reality. We're here to bring your digital dreams to life with cutting-edge design and development.",
+    "email": {
+        "title": "Email us"
+    },
+    "phone": {
+        "title": "Call us"
+    },
+    "location": {
+        "title": "Visit us"
+    },
+    "stats": {
+        "projects": "Projects Delivered",
+        "response": "Response Time",
+        "satisfaction": "Satisfaction"
+    }
+}

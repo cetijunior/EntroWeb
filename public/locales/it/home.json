@@ -1,0 +1,38 @@
+{
+    "hero": {
+        "badge": "*L'Agenzia di Marketing Digitale per Te",
+        "headline": "Costruiamo Brand Che Dominano",
+        "subheadline": "Il tuo partner premium per <1>strategia</1>, <3>design</3> e <5>esperienze digitali</5> che trasformano i visitatori in clienti fedeli.",
+        "button1": "🚀 Scala il Tuo Business",
+        "button2": "▶ Guarda i Nostri Risultati",
+        "stats": {
+            "brands": {
+                "value": "150+",
+                "label": "Brand Trasformati"
+            },
+            "roi": {
+                "value": "500%",
+                "label": "Aumento Medio del ROI"
+            },
+            "support": {
+                "value": "24/7",
+                "label": "Supporto & Strategia"
+            }
+        }
+    },
+    "brands": {
+        "title": "Il Nostro Lavoro con Brand Globali",
+        "subtitle": "Creiamo esperienze di branding indimenticabili per nomi leader nei settori della moda, della tecnologia e dello stile di vita."
+    },
+    "servicesIntro": {
+        "badge": "Soluzioni Digitali Premium",
+        "title": "I Nostri Servizi",
+        "subtitle": "Forniamo soluzioni digitali complete che trasformano il tuo business, stimolano la crescita e creano vantaggi competitivi duraturi nel panorama digitale."
+    },
+    "cta": {
+        "headline": "Pronto a <1>Far Crescere</1> il Tuo Business?",
+        "paragraph": "Creiamo qualcosa di straordinario insieme. Il nostro team è pronto a dare vita alla tua visione con soluzioni all'avanguardia.",
+        "buttonStart": "Avvia il Tuo Progetto",
+        "buttonWork": "Guarda i Nostri Lavori"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "description": "We craft premium digital experiences that elevate your brand.",
+    "navigation": "Navigation",
+    "rights": "All rights reserved.",
+    "poweredBy": "Powered by:",
+    "nav": {
+        "home": "Home",
+        "about": "About Us",
+        "blog": "Blog",
+        "services": "Services",
+        "contact": "Contact"
+    },
+    "socials": {
+        "title": "Follow Us",
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook",
+        "poweredBy": "Powered by: ca-webservices.com"
+    }
+}

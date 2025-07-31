@@ -1,0 +1,21 @@
+{
+    "project1": {
+        "name": "BLVCK",
+        "category": "Branding"
+    },
+    "project2": {
+        "name": "CREAM",
+        "category": "Branding"
+    },
+    "project3": {
+        "name": "FREDI",
+        "category": "Branding"
+    },
+    "project4": {
+        "name": "APOLLO",
+        "category": "Branding"
+    },
+    "badge": "PROGETTI",
+    "title": "Guidiamo aziende rivoluzionarie attraverso piattaforme e spazi, con design agile ed esperienze digitali. Creiamo onde",
+    "exploreButton": "Esplora tutti i progetti"
+}

@@ -1,0 +1,22 @@
+{
+    "badge": "Na Kontaktoni",
+    "headline": {
+        "prefix": "Gati për të krijuar",
+        "highlight": "diçka të jashtëzakonshme?"
+    },
+    "description": "Transformoni vizionin tuaj në realitet. Ne jemi këtu për të realizuar ëndrrat tuaja digjitale me dizajn dhe zhvillim modern.",
+    "email": {
+        "title": "Na shkruani"
+    },
+    "phone": {
+        "title": "Na telefononi"
+    },
+    "location": {
+        "title": "Na vizitoni"
+    },
+    "stats": {
+        "projects": "Projekte të përfunduara",
+        "response": "Koha e përgjigjes",
+        "satisfaction": "Kënaqësi"
+    }
+}

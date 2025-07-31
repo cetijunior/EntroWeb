@@ -1,0 +1,22 @@
+{
+    "badge": "Contattaci",
+    "headline": {
+        "prefix": "Pronto a creare",
+        "highlight": "qualcosa di straordinario?"
+    },
+    "description": "Trasforma la tua visione in realtà. Siamo qui per realizzare i tuoi sogni digitali con design e sviluppo all'avanguardia.",
+    "email": {
+        "title": "Scrivici"
+    },
+    "phone": {
+        "title": "Chiamaci"
+    },
+    "location": {
+        "title": "Vieni a trovarci"
+    },
+    "stats": {
+        "projects": "Progetti completati",
+        "response": "Tempo di risposta",
+        "satisfaction": "Soddisfazione"
+    }
+}

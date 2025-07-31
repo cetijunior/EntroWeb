@@ -1,0 +1,19 @@
+{
+    "description": "Creiamo esperienze digitali premium che elevano il tuo brand.",
+    "navigation": "Navigazione",
+    "rights": "Tutti i diritti riservati.",
+    "poweredBy": "Offerto da:",
+    "nav": {
+        "home": "Home",
+        "about": "Chi Siamo",
+        "blog": "Blog",
+        "services": "Servizi",
+        "contact": "Contatti"
+    },
+    "socials": {
+        "title": "Seguici",
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook"
+    }
+}

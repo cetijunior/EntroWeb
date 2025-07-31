@@ -1,0 +1,59 @@
+{
+    "servicesIntro": {
+        "badge": "Premium Digital Solutions",
+        "title": "Our Services",
+        "subtitle": "We deliver comprehensive digital solutions that transform your business, drive growth, and create lasting competitive advantages in the digital landscape."
+    },
+    "strategy": {
+        "title": "Strategy Services",
+        "description": "Data-driven strategies that position your brand ahead of the competition and create sustainable growth pathways.",
+        "points": [
+            "Market and competitive research",
+            "CRM & sales funnel strategy",
+            "Brand positioning & messaging",
+            "UX consulting",
+            "Marketing strategy",
+            "Automation"
+        ]
+    },
+    "marketing": {
+        "title": "Marketing Services",
+        "description": "Comprehensive digital marketing solutions that drive engagement, generate leads, and maximize your ROI.",
+        "points": [
+            "Digital marketing campaigns",
+            "Lead nurturing",
+            "Marketing personas",
+            "Branding",
+            "SEO",
+            "Content creation"
+        ]
+    },
+    "design": {
+        "title": "Design Services",
+        "description": "Beautiful, functional designs that captivate your audience and deliver exceptional user experiences.",
+        "points": [
+            "User testing & personas",
+            "Wireframing and prototyping",
+            "Website design",
+            "Graphic print design",
+            "Animations",
+            "UI/UX Design"
+        ]
+    },
+    "development": {
+        "title": "Development Services",
+        "description": "Robust, scalable development solutions that bring your digital vision to life with cutting-edge technology.",
+        "points": [
+            "Website maintenance and hosting",
+            "Platform and data migration",
+            "CRM implementation",
+            "Website building"
+        ]
+    },
+    "cta": {
+        "headline": "Ready to <1>Elevate</1> Your Business?",
+        "paragraph": "Let's create something extraordinary together. Our team is ready to bring your vision to life with cutting-edge solutions.",
+        "buttonStart": "Start Your Project",
+        "buttonWork": "View Our Work"
+    }
+}

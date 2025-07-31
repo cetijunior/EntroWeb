@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { useTranslation, Trans } from "react-i18next";
+
 
 // Custom Button Component
 const Button = ({ children, variant = "primary", href = "#", className = "" }) => {
@@ -85,6 +87,13 @@ const HeroGraphics = () => {
 export default function Hero() {
     const [isVisible, setIsVisible] = useState(false);
 
+    const { t } = useTranslation("home");
+
+    useEffect(() => {
+        console.log("Loaded:", t("hero.headline"));
+    }, []);
+
+
     useEffect(() => {
         setIsVisible(true);
     }, []);
@@ -105,7 +114,7 @@ export default function Hero() {
                             style={{ transitionDelay: '0.2s' }}
                         >
                             {/* <div className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></div> */}
-                            *The Digital Marketing Agency For You
+                            {t("hero.badge")}
                         </div>
 
                         {/* Main Headline */}
@@ -113,21 +122,28 @@ export default function Hero() {
                             className={`text-5xl sm:text-6xl lg:text-7xl font-black leading-[0.9] text-gray-900 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                             style={{ transitionDelay: '0.4s' }}
                         >
-                            We Build Brands<br />
+                            {t("hero.headline").split("<br />")[0]}<br />
                             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                                That Dominate
+                                {t("hero.headline").split("<br />")[1]}
                             </span>
                         </h1>
 
-                        {/* Subheadline */}
+                        {/* Subheadline (supports bolded spans via innerHTML) */}
                         <p
-                            className={`text-xl text-gray-600 leading-relaxed max-w-lg transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                            className={`text-xl text-gray-600 leading-relaxed max-w-lg transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+                                }`}
                             style={{ transitionDelay: '0.6s' }}
                         >
-                            Your premium partner for <span className="font-semibold text-gray-900">strategy</span>,
-                            <span className="font-semibold text-gray-900"> design</span>, and
-                            <span className="font-semibold text-gray-900"> digital experiences</span> that convert visitors into loyal customers.
+                            <Trans
+                                i18nKey="hero.subheadline"
+                                components={{
+                                    1: <span className="font-semibold text-gray-900" />,
+                                    3: <span className="font-semibold text-gray-900" />,
+                                    5: <span className="font-semibold text-gray-900" />,
+                                }}
+                            />
                         </p>
+
 
                         {/* CTA Buttons */}
                         <div
@@ -135,12 +151,10 @@ export default function Hero() {
                             style={{ transitionDelay: '0.8s' }}
                         >
                             <Button href="#services" className="text-lg px-10 py-5">
-                                <span className="mr-2">🚀</span>
-                                Scale Your Business
+                                {t("hero.button1")}
                             </Button>
                             <Button variant="outline" href="#reel" className="text-lg px-10 py-5">
-                                <span className="mr-2">▶</span>
-                                See Our Results
+                                {t("hero.button2")}
                             </Button>
                         </div>
 
@@ -151,21 +165,27 @@ export default function Hero() {
                         >
                             <div className="text-center">
                                 <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                                    150+
+                                    {t("hero.stats.brands.value")}
                                 </div>
-                                <div className="text-sm text-gray-600 font-medium">Brands Transformed</div>
+                                <div className="text-sm text-gray-600 font-medium">
+                                    {t("hero.stats.brands.label")}
+                                </div>
                             </div>
                             <div className="text-center">
                                 <div className="text-3xl font-bold bg-gradient-to-r from-emerald-600 to-cyan-600 bg-clip-text text-transparent">
-                                    500%
+                                    {t("hero.stats.roi.value")}
                                 </div>
-                                <div className="text-sm text-gray-600 font-medium">Average ROI Increase</div>
+                                <div className="text-sm text-gray-600 font-medium">
+                                    {t("hero.stats.roi.label")}
+                                </div>
                             </div>
                             <div className="text-center">
                                 <div className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-red-600 bg-clip-text text-transparent">
-                                    24/7
+                                    {t("hero.stats.support.value")}
                                 </div>
-                                <div className="text-sm text-gray-600 font-medium">Support & Strategy</div>
+                                <div className="text-sm text-gray-600 font-medium">
+                                    {t("hero.stats.support.label")}
+                                </div>
                             </div>
                         </div>
                     </div>

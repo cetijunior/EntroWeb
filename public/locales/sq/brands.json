@@ -1,0 +1,21 @@
+{
+    "project1": {
+        "name": "BLVCK",
+        "category": "Branding"
+    },
+    "project2": {
+        "name": "CREAM",
+        "category": "Branding"
+    },
+    "project3": {
+        "name": "FREDI",
+        "category": "Branding"
+    },
+    "project4": {
+        "name": "APOLLO",
+        "category": "Branding"
+    },
+    "badge": "PROJEKTET",
+    "title": "Udhëheqim kompani transformuese nëpër platforma dhe hapësira përmes dizajnit të zgjuar dhe përvojave digjitale. Krijojmë valë",
+    "exploreButton": "Shiko të gjitha projektet"
+}

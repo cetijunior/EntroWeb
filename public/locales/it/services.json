@@ -1,0 +1,59 @@
+{
+    "servicesIntro": {
+        "badge": "Soluzioni Digitali Premium",
+        "title": "I Nostri Servizi",
+        "subtitle": "Forniamo soluzioni digitali complete che trasformano il tuo business, stimolano la crescita e creano vantaggi competitivi duraturi nel panorama digitale."
+    },
+    "strategy": {
+        "title": "Servizi di Strategia",
+        "description": "Strategie basate sui dati che posizionano il tuo brand davanti alla concorrenza e creano percorsi di crescita sostenibili.",
+        "points": [
+            "Ricerca di mercato e competitiva",
+            "Strategia CRM e funnel di vendita",
+            "Posizionamento e messaggio del brand",
+            "Consulenza UX",
+            "Strategia di marketing",
+            "Automazione"
+        ]
+    },
+    "marketing": {
+        "title": "Servizi di Marketing",
+        "description": "Soluzioni di marketing digitale complete che aumentano il coinvolgimento, generano contatti e massimizzano il ROI.",
+        "points": [
+            "Campagne di marketing digitale",
+            "Gestione dei contatti",
+            "Creazione di personas di marketing",
+            "Branding",
+            "SEO",
+            "Creazione di contenuti"
+        ]
+    },
+    "design": {
+        "title": "Servizi di Design",
+        "description": "Design belli e funzionali che catturano l'attenzione del pubblico e offrono esperienze utente eccezionali.",
+        "points": [
+            "Test utente e personas",
+            "Wireframing e prototipazione",
+            "Design del sito web",
+            "Design grafico per stampa",
+            "Animazioni",
+            "UI/UX Design"
+        ]
+    },
+    "development": {
+        "title": "Servizi di Sviluppo",
+        "description": "Soluzioni di sviluppo robuste e scalabili che trasformano la tua visione digitale in realtà con tecnologie all’avanguardia.",
+        "points": [
+            "Manutenzione e hosting del sito",
+            "Migrazione di piattaforme e dati",
+            "Implementazione CRM",
+            "Creazione di siti web"
+        ]
+    },
+    "cta": {
+        "headline": "Pronto a <1>Far Crescere</1> il Tuo Business?",
+        "paragraph": "Creiamo qualcosa di straordinario insieme. Il nostro team è pronto a realizzare la tua visione con soluzioni avanzate.",
+        "buttonStart": "Avvia il Tuo Progetto",
+        "buttonWork": "Guarda i Nostri Lavori"
+    }
+}
