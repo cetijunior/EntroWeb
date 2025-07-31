@@ -1,5 +1,19 @@
 {
-    "title": "About Us",
-    "mission": "Our mission is to help brands grow through exceptional design, strategy, and development.",
-    "team": "Meet the team"
+  "hero": {
+    "badge": "About EntroWeb",
+    "headline": "Empowering Your Digital Success",
+    "subheadline": "We are a passionate team dedicated to transforming businesses through innovative digital marketing, SEO, PPC, and web development solutions."
+  },
+  "mission": {
+    "title": "Our Mission & Vision",
+    "description": "At EntroWeb, our mission is to empower businesses to thrive in the digital world by delivering cutting-edge marketing strategies and seamless technical solutions. We envision a future where every business can harness the power of digital innovation to achieve measurable growth and lasting success."
+  },
+  "team": {
+    "title": "Meet Our Experts",
+    "description": "Our team of creative professionals is committed to delivering innovative solutions with precision and passion."
+  },
+  "cta": {
+    "title": "Ready to Grow Your Business?",
+    "button": "Get in Touch"
+  }
 }

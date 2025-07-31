@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "badge": "Chi è EntroWeb",
+    "headline": "Potenziare il Tuo Successo Digitale",
+    "subheadline": "Siamo un team appassionato dedicato a trasformare le aziende attraverso soluzioni innovative di marketing digitale, SEO, PPC e sviluppo web."
+  },
+  "mission": {
+    "title": "La Nostra Missione e Visione",
+    "description": "In EntroWeb, la nostra missione è aiutare le aziende a prosperare nel mondo digitale offrendo strategie di marketing all'avanguardia e soluzioni tecniche impeccabili. Immaginiamo un futuro in cui ogni azienda possa sfruttare il potere dell'innovazione digitale per ottenere una crescita misurabile e un successo duraturo."
+  },
+  "team": {
+    "title": "Incontra i Nostri Esperti",
+    "description": "Il nostro team di professionisti creativi è impegnato a fornire soluzioni innovative con precisione e passione."
+  },
+  "cta": {
+    "title": "Pronto a Far Crescere la Tua Azienda?",
+    "button": "Contattaci"
+  }
+}

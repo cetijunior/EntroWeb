@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "badge": "Rreth EntroWeb",
+    "headline": "Fuqizimi i Suksesit Tënd Digjital",
+    "subheadline": "Ne jemi një ekip i pasionuar i dedikuar për të transformuar bizneset përmes zgjidhjeve inovative të marketingut digjital, SEO, PPC dhe zhvillimit të uebit."
+  },
+  "mission": {
+    "title": "Misioni dhe Vizioni Ynë",
+    "description": "Në EntroWeb, misioni ynë është të fuqizojmë bizneset të lulëzojnë në botën digjitale duke ofruar strategji marketingu të avancuara dhe zgjidhje teknike të qetë. Ne ëndërrojmë një të ardhme ku çdo biznes mund të shfrytëzojë fuqinë e inovacionit digjital për të arritur rritje të matshme dhe sukses të qëndrueshëm."
+  },
+  "team": {
+    "title": "Njihuni me Ekspertët Tanë",
+    "description": "Ekipi ynë i profesionistëve krijues është i përkushtuar për të ofruar zgjidhje inovative me saktësi dhe pasion."
+  },
+  "cta": {
+    "title": "Gati për të Rritur Biznesin Tënd?",
+    "button": "Na Kontakto"
+  }
+}
