@@ -1,20 +1,17 @@
 {
-    "description": "We craft premium digital experiences that elevate your brand.",
-    "navigation": "Navigation",
-    "rights": "All rights reserved.",
-    "poweredBy": "Powered by:",
-    "nav": {
-        "home": "Home",
-        "about": "About Us",
-        "blog": "Blog",
-        "services": "Services",
-        "contact": "Contact"
-    },
-    "socials": {
-        "title": "Follow Us",
-        "instagram": "Instagram",
-        "linkedin": "LinkedIn",
-        "facebook": "Facebook",
-        "poweredBy": "Powered by: ca-webservices.com"
-    }
+  "description": "EntroWeb helps businesses grow through digital marketing, generating new contacts and clients with our strategies. Start your journey today and build a successful future.",
+  "nav": {
+    "title": "Navigation",
+    "home": "Home",
+    "about": "About",
+    "blog": "Blog",
+    "services": "Services"
+  },
+  "socials": {
+    "title": "Connect With Us"
+  },
+  "privacyPolicy": "Privacy Policy",
+  "termsOfUse": "Terms of Use",
+  "copyright": "© {{year}} EntroWeb. All rights reserved.",
+  "poweredBy": "Powered by"
 }

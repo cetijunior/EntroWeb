@@ -1,19 +1,17 @@
 {
-    "description": "Ne krijojmë përvoja digjitale premium që e ngrejnë markën tuaj.",
-    "navigation": "Navigimi",
-    "rights": "Të gjitha të drejtat e rezervuara.",
-    "poweredBy": "Mundësuar nga:",
-    "nav": {
-        "home": "Ballina",
-        "about": "Rreth Nesh",
-        "blog": "Blog",
-        "services": "Shërbimet",
-        "contact": "Kontakti"
-    },
-    "socials": {
-        "title": "Na Ndiqni",
-        "instagram": "Instagram",
-        "linkedin": "LinkedIn",
-        "facebook": "Facebook"
-    }
+  "description": "EntroWeb ndihmon bizneset të rriten përmes marketingut digjital, duke gjeneruar kontakte dhe klientë të rinj me strategjitë tona. Fillo udhëtimin tënd sot dhe ndërto një të ardhme të suksesshme.",
+  "nav": {
+    "title": "Navigimi",
+    "home": "Kryefaqja",
+    "about": "Rreth Nesh",
+    "blog": "Blog",
+    "services": "Shërbimet"
+  },
+  "socials": {
+    "title": "Lidhu me Ne"
+  },
+  "privacyPolicy": "Politika e Privatësisë",
+  "termsOfUse": "Kushtet e Përdorimit",
+  "copyright": "© {{year}} EntroWeb. Të gjitha të drejtat e rezervuara.",
+  "poweredBy": "Mundësuar nga"
 }
