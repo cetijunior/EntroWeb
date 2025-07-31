@@ -34,5 +34,12 @@
         "paragraph": "Le të krijojmë diçka të jashtëzakonshme bashkë. Ekipi ynë është gati ta sjellë vizionin tënd në jetë me zgjidhje të avancuara.",
         "buttonStart": "Fillo Projektin Tënd",
         "buttonWork": "Shiko Punët Tona"
+    },
+    
+    "blog": {
+        "title": "Ultime Novità",
+        "description": "Scopri i nostri ultimi post sul blog per rimanere aggiornato sulle tendenze del marketing digitale, consigli SEO e altro ancora.",
+        "readMore": "Leggi di Più",
+        "viewAll": "Vedi Tutti i Post"
     }
 }
