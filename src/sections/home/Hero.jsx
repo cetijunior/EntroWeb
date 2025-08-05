@@ -129,7 +129,7 @@ export default function Hero() {
 
 						{/* Stats */}
 						<div
-							className={`flex flex-wrap gap-8 pt-8 transition-all duration-1000 ${
+							className={`flex flex-wrap items-center justify-center sm:flex-row gap-8 pt-8 transition-all duration-1000 ${
 								isVisible
 									? "opacity-100 translate-y-0"
 									: "opacity-0 translate-y-8"
