@@ -5,7 +5,9 @@
     "home": "Home",
     "about": "About",
     "blog": "Blog",
-    "services": "Services"
+    "services": "Services",
+    "projects": "Projects"
+
   },
   "socials": {
     "title": "Connect With Us"

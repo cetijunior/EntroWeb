@@ -16,7 +16,8 @@ export default function Footer() {
 		{ label: t("nav.home"), path: "/" },
 		{ label: t("nav.about"), path: "/about" },
 		{ label: t("nav.blog"), path: "/blog" },
-		{ label: t("nav.services"), path: "/services" },
+		// { label: t("nav.services"), path: "/services" },
+		{ label: t("nav.projects"), path: "/projects" },
 	];
 
 	return (
