@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import BG from "../components/BG";
+import BG from "../../components/BG";
 
 const Blog = () => {
 	const { t } = useTranslation("home");

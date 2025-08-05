@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "badge": "Il Nostro Portfolio",
+    "title": "Mostriamo le Nostre Storie di Successo",
+    "subheadline": "Scopri come abbiamo trasformato marchi con soluzioni innovative di marketing digitale, SEO, PPC e sviluppo web."
+  },
+  "projects": {
+    "badge": "Progetti in Evidenza",
+    "title": "Il Nostro Lavoro con Marchi Globali",
+    "subheadline": "Creiamo esperienze di branding indimenticabili per nomi leader nei settori della moda, tecnologia e lifestyle."
+  },
+  "project1": {
+    "name": "BLVCK",
+    "category": "Branding di Moda",
+    "title": "BLVCK: Ridefinire il Branding di Moda",
+    "description": "BLVCK è un audace progetto di branding di moda che combina design minimalista con strategie di marketing digitale all'avanguardia. Il nostro team ha creato una presenza online elegante, ottimizzato SEO e lanciato campagne PPC mirate per aumentare la visibilità e l'engagement del marchio."
+  },
+  "project2": {
+    "name": "CREAM",
+    "category": "Soluzioni Tecnologiche",
+    "title": "CREAM: Innovazione nelle Soluzioni Tecnologiche",
+    "description": "CREAM rappresenta la nostra esperienza nella fornitura di soluzioni tecnologiche scalabili. Abbiamo sviluppato un sito web personalizzato con analisi integrate, esperienza utente migliorata e SEO robusto per aumentare il traffico e le conversioni per questa startup tecnologica."
+  },
+  "project3": {
+    "name": "FREDI",
+    "category": "Campagna di Lifestyle",
+    "title": "FREDI: Campagna di Lifestyle Vibrante",
+    "description": "La campagna di lifestyle di FREDI si è concentrata sulla creazione di un'identità di marca vibrante. Il nostro team ha progettato contenuti accattivanti per i social media, ottimizzato annunci PPC e costruito un sito web responsive per connettersi con un pubblico globale."
+  },
+  "project4": {
+    "name": "APOLLO",
+    "category": "Marketing Digitale",
+    "title": "APOLLO: Elevare la Presenza Digitale",
+    "description": "APOLLO dimostra la nostra competenza nel marketing digitale. Abbiamo implementato una strategia completa che include SEO, Google Ads e campagne sui social media per aumentare la consapevolezza del marchio e ottenere un incremento del 300% nell'engagement online."
+  },
+  "exploreButton": "Esplora Tutti i Progetti",
+  "cta": {
+    "title": "Pronto a Costruire la Tua Storia di Successo?",
+    "button": "Inizia il Tuo Progetto"
+  },
+  "detail": {
+    "loading": "Caricamento progetto...",
+    "error": "Progetto non trovato",
+    "backToProjects": "Torna ai Progetti"
+  }
+}

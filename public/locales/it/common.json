@@ -1,0 +1,7 @@
+{
+  "notfound": {
+    "title": "Ops! Pagina non trovata",
+    "description": "La pagina che stai cercando non esiste o è stata spostata.",
+    "button": "Torna alla Home"
+  }
+}

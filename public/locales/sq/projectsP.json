@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "badge": "Portofoli Ynë",
+    "title": "Tregimi i Historive Tona të Suksesit",
+    "subheadline": "Zbuloni se si kemi transformuar markat me zgjidhje inovative të marketingut digjital, SEO, PPC dhe zhvillimit të uebit."
+  },
+  "projects": {
+    "badge": "Projekte të Zgjedhura",
+    "title": "Puna Jonë me Marka Globale",
+    "subheadline": "Ne krijojmë përvoja të paharrueshme të markës për emra lider në industritë e modës, teknologjisë dhe stilit të jetës."
+  },
+  "project1": {
+    "name": "BLVCK",
+    "category": "Branding i Modës",
+    "title": "BLVCK: Rindërtimi i Branding-ut të Modës",
+    "description": "BLVCK është një projekt i guximshëm i branding-ut të modës që kombinon dizajnin minimalist me strategji marketingu digjital të avancuara. Ekipi ynë krijoi një prani online elegante, optimizoi SEO dhe lançoi fushata PPC të targetuara për të rritur dukshmërinë dhe angazhimin e markës."
+  },
+  "project2": {
+    "name": "CREAM",
+    "category": "Zgjidhje Teknologjike",
+    "title": "CREAM: Inovacion në Zgjidhjet Teknologjike",
+    "description": "CREAM përfaqëson ekspertizën tonë në ofrimin e zgjidhjeve teknologjike të shkallëzueshme. Ne zhvilluam një faqe interneti të personalizuar me analiza të integruara, përvojë përdoruesi të përmirësuar dhe SEO të fortë për të rritur trafikun dhe konvertimet për këtë startup teknologjik."
+  },
+  "project3": {
+    "name": "FREDI",
+    "category": "Fushatë Stili Jetese",
+    "title": "FREDI: Fushatë e Gjallë për Stilin e Jetës",
+    "description": "Fushata e stilit të jetës së FREDI u përqendrua në krijimin e një identiteti të gjallë të markës. Ekipi ynë dizajnoi përmbajtje tërheqëse për mediat sociale, optimizoi reklamat PPC dhe ndërtoi një faqe interneti responsive për të lidhur me një audiencë globale."
+  },
+  "project4": {
+    "name": "APOLLO",
+    "category": "Marketing Digjital",
+    "title": "APOLLO: Rritje e Jashtëzakonshme e Pranisë Digjitale",
+    "description": "APOLLO tregon aftësitë tona në marketingun digjital. Ne implementuam një strategji të plotë që përfshin SEO, Google Ads dhe fushata në mediat sociale për të rritur ndërgjegjësimin e markës dhe për të arritur një rritje prej 300% në angazhimin online."
+  },
+  "exploreButton": "Eksploro Të Gjitha Projektet",
+  "cta": {
+    "title": "Gati për të Ndërtuar Historinë Tënde të Suksesit?",
+    "button": "Fillo Projektin Tënd"
+  },
+  "detail": {
+    "loading": "Duke ngarkuar projektin...",
+    "error": "Projekti nuk u gjet",
+    "backToProjects": "Kthehu te Projektet"
+  }
+}

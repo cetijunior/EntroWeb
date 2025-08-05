@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactForm() {
 	return (
-		<div className="w-full h-[600px] px-20 my-20 ">
+		<div className="flex items-center justify-center w-auto mx-auto h-[900px] sm:h-[600px] px-6 sm:px-20 my-20 ">
 			<iframe
 				src="https://entroweb.com/request-a-consultation/"
 				title="Consultation Form"

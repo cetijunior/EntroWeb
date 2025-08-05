@@ -1,7 +1,7 @@
 // src/sections/AboutHero.jsx
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import BG from "../components/BG";
+import BG from "../../components/BG";
 
 export default function AboutHero() {
 	const { t } = useTranslation("aboutP"); // Assuming the file is named "about.json"

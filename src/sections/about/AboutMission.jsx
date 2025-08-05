@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+
 import {
 	Target,
 	Lightbulb,
@@ -12,12 +14,11 @@ import {
 	Heart,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import CTA from "../components/CTA";
+import CTA from "../../components/CTA";
 
 export default function AboutMission() {
 	const [activeTab, setActiveTab] = useState(0);
 	const [countAnimation, setCountAnimation] = useState(false);
-	const [animatedStats, setAnimatedStats] = useState([]);
 
 	const { t } = useTranslation("aboutP");
 
@@ -26,9 +27,17 @@ export default function AboutMission() {
 	const processSteps = t("mission.process", { returnObjects: true });
 	const achievements = t("mission.achievements", { returnObjects: true });
 
+	const [animatedStats, setAnimatedStats] = useState(stats.map(() => 0));
+	const [hasAnimated, setHasAnimated] = useState(false);
+
+	const { ref, inView } = useInView({
+		triggerOnce: true, // Animate only once
+		threshold: 0.3, // 30% of the section must be visible
+	});
+
 	// Animate the stats on hover
 	useEffect(() => {
-		if (countAnimation) {
+		if (inView && !hasAnimated) {
 			const newStats = [...stats].map(() => 0);
 			stats.forEach((stat, index) => {
 				let current = 0;
@@ -43,8 +52,9 @@ export default function AboutMission() {
 					setAnimatedStats([...newStats]);
 				}, 30);
 			});
+			setHasAnimated(true);
 		}
-	}, [countAnimation]);
+	}, [inView, hasAnimated, stats]);
 
 	// Icon mapping
 	const tabIcons = [Target, Lightbulb, Heart];
@@ -102,8 +112,9 @@ export default function AboutMission() {
 
 					<div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 lg:p-12 shadow-xl">
 						<div className="text-center">
-							<div className="w-20 h-20 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-2xl flex items-center justify-center mx-auto mb-6 transform hover:rotate-12 transition-transform duration-300"></div>
-
+							<div className="w-20 h-20 bg-gradient-to-r from-indigo-500 via-white to-purple-500 rounded-2xl flex items-center justify-center mx-auto mb-6 transform hover:rotate-12 transition-transform duration-300">
+								<img className="rounded-2xl" src="Logo.png" />
+							</div>
 							<h3 className="text-3xl font-bold text-gray-900 mb-6">
 								{missionTabs[activeTab].title}
 							</h3>
@@ -171,7 +182,7 @@ export default function AboutMission() {
 				</div>
 
 				{/* Stats */}
-				<div className="mb-20" onMouseEnter={() => setCountAnimation(true)}>
+				<section ref={ref} className="mb-20">
 					<div className="text-center mb-12">
 						<h3 className="text-4xl font-bold text-gray-900 mb-4">
 							{t("mission.statsTitle")}
@@ -197,7 +208,7 @@ export default function AboutMission() {
 							</div>
 						))}
 					</div>
-				</div>
+				</section>
 
 				{/* Achievements */}
 				<div className="mb-16">

@@ -1,13 +1,13 @@
 // src/pages/About.jsx
 import BG from "../components/BG";
 import CTA from "../components/CTA";
-import AboutHero from "../sections/AboutHero";
-import AboutMission from "../sections/AboutMission";
-import AboutTeam from "../sections/AboutTeam";
+import AboutHero from "../sections/about/AboutHero";
+import AboutMission from "../sections/about/AboutMission";
+import AboutTeam from "../sections/about/AboutTeam";
 
 export default function About() {
 	return (
-		<div className="relative min-h-screen w-full bg-white/60 -mt-16">
+		<div className="relative min-h-screen w-full -mt-16">
 			{/* Background Overlay */}
 			<div className="absolute inset-0 -z-20 opacity-70">
 				<BG centerText="EntroWeb" subtitle="Digital Marketing Solutions" />

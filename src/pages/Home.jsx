@@ -1,9 +1,9 @@
-import Hero from "../sections/Hero";
-import Services from "../sections/Services";
-import Brands from "../sections/Brands";
-import Testimonials from "../sections/Testimonials";
-import Contact from "../sections/Contact";
-import Blog from "../sections/Blog";
+import Hero from "../sections/home/Hero";
+import Services from "../sections/home/Services";
+import Brands from "../sections/home/Brands";
+// import Testimonials from "../sections/home/Testimonials";
+import Contact from "../sections/contact/Contact";
+import Blog from "../sections/home/Blog";
 
 export default function Home() {
 	return (

@@ -10,6 +10,7 @@ import {
 	Mail,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import BG from "../../components/BG";
 
 export default function AboutTeam() {
 	const [hoveredMember, setHoveredMember] = useState(null);
@@ -59,29 +60,33 @@ export default function AboutTeam() {
 		},
 	];
 
-	const values = [
-		{
-			icon: Lightbulb,
-			title: "Innovation First",
-			description:
-				"We stay ahead of trends and continuously explore new ways to grow your brand.",
-		},
-		{
-			icon: Heart,
-			title: "Client-Centric",
-			description:
-				"Your success is our success. We treat every project as if it were our own business.",
-		},
-		{
-			icon: Zap,
-			title: "Results Driven",
-			description:
-				"We focus on measurable outcomes that directly impact your bottom line.",
-		},
-	];
+	// const values = [
+	// 	{
+	// 		icon: Lightbulb,
+	// 		title: "Innovation First",
+	// 		description:
+	// 			"We stay ahead of trends and continuously explore new ways to grow your brand.",
+	// 	},
+	// 	{
+	// 		icon: Heart,
+	// 		title: "Client-Centric",
+	// 		description:
+	// 			"Your success is our success. We treat every project as if it were our own business.",
+	// 	},
+	// 	{
+	// 		icon: Zap,
+	// 		title: "Results Driven",
+	// 		description:
+	// 			"We focus on measurable outcomes that directly impact your bottom line.",
+	// 	},
+	// ];
 
 	return (
-		<section className="py-20 bg-gradient-to-br from-slate-50 via-white to-blue-50 overflow-hidden">
+		<section className="py-20 overflow-hidden">
+			<div className="absolute inset-0 -z-20 opacity-70">
+				<BG centerText="EntroWeb" subtitle="Digital Marketing Solutions" />
+			</div>
+
 			<div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				{/* Header */}
 				<div className="text-center mb-20">

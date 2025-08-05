@@ -20,7 +20,8 @@ export default function Navbar() {
 		{ label: t("home"), path: "/" },
 		{ label: t("about"), path: "/about" },
 		{ label: t("blog"), path: "/blog" },
-		{ label: t("services"), path: "/services" },
+		// { label: t("services"), path: "/services" },
+		{ label: t("projects"), path: "/projects" },
 	];
 
 	const scrollThreshold = 30;

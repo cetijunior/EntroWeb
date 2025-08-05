@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "badge": "Our Portfolio",
+    "title": "Showcasing Our Success Stories",
+    "subheadline": "Discover how we’ve transformed brands with innovative digital marketing, SEO, PPC, and web development solutions."
+  },
+  "projects": {
+    "badge": "Featured Projects",
+    "title": "Our Work With Global Brands",
+    "subheadline": "We craft unforgettable branding experiences for industry-leading names across fashion, tech, and lifestyle."
+  },
+  "project1": {
+    "name": "BLVCK",
+    "category": "Fashion Branding",
+    "title": "BLVCK: Redefining Fashion Branding",
+    "description": "BLVCK is a bold fashion branding project that blends minimalist design with cutting-edge digital marketing strategies. Our team crafted a sleek online presence, optimized SEO, and launched targeted PPC campaigns to elevate brand visibility and engagement."
+  },
+  "project2": {
+    "name": "CREAM",
+    "category": "Tech Solutions",
+    "title": "CREAM: Innovating Tech Solutions",
+    "description": "CREAM represents our expertise in delivering scalable tech solutions. We developed a custom website with integrated analytics, enhanced user experience, and robust SEO to drive traffic and conversions for this tech startup."
+  },
+  "project3": {
+    "name": "FREDI",
+    "category": "Lifestyle Campaign",
+    "title": "FREDI: Vibrant Lifestyle Campaign",
+    "description": "FREDI’s lifestyle campaign focused on creating a vibrant brand identity. Our team designed engaging social media content, optimized PPC ads, and built a responsive website to connect with a global audience."
+  },
+  "project4": {
+    "name": "APOLLO",
+    "category": "Digital Marketing",
+    "title": "APOLLO: Skyrocketing Digital Presence",
+    "description": "APOLLO showcases our digital marketing prowess. We implemented a comprehensive strategy including SEO, Google Ads, and social media campaigns to boost brand awareness and achieve a 300% increase in online engagement."
+  },
+  "exploreButton": "Explore All Projects",
+  "cta": {
+    "title": "Ready to Build Your Success Story?",
+    "button": "Start Your Project"
+  },
+  "detail": {
+    "loading": "Loading project...",
+    "error": "Project not found",
+    "backToProjects": "Back to Projects"
+  }
+}

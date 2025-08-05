@@ -13,6 +13,7 @@ import TermsOfUse from "./pages/TermsOfUse";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 import BlogPost from "./pages/BlogPost";
+import ProjectDetail from "./pages/ProjectsDetail";
 
 function App() {
 	return (
@@ -28,6 +29,8 @@ function App() {
 					<Route path="/blog" element={<Blog />} />
 					<Route path="/blog/:slug" element={<BlogPost />} />
 					<Route path="/contact" element={<Contact />} />
+					<Route path="/projects" element={<Projects />} />
+					<Route path="/projects/:id" element={<ProjectDetail />} />
 					<Route path="/privacy-policy" element={<PrivacyPolicy />} />
 					<Route path="/terms-of-use" element={<TermsOfUse />} />
 					<Route path="*" element={<NotFound />} />

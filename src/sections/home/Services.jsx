@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import StrategyGraphic from "../graphics/StrategyGraphic";
-import MarketingGraphic from "../graphics/MarketingGraphic";
-import DesignGraphic from "../graphics/DesignGraphic";
-import DevelopmentGraphic from "../graphics/DevelopmentGraphic";
-import CTA from "../components/CTA";
-import BG from "../components/BG";
+import StrategyGraphic from "../../graphics/StrategyGraphic";
+import MarketingGraphic from "../../graphics/MarketingGraphic";
+import DesignGraphic from "../../graphics/DesignGraphic";
+import DevelopmentGraphic from "../../graphics/DevelopmentGraphic";
+import CTA from "../../components/CTA";
+import BG from "../../components/BG";
 
 export default function Services() {
 	const { t } = useTranslation("services");
