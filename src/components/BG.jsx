@@ -1,73 +1,29 @@
 import React, { useEffect } from "react";
 
-const BG = ({
-	centerText = "SMMA",
-	subtitle = "Social Media Marketing Agency",
-}) => {
+const BG = () => {
 	useEffect(() => {
 		const graphicElements = document.querySelectorAll(".graphic-element");
 
-		graphicElements.forEach((element, index) => {
+		graphicElements.forEach((element) => {
 			// Random animation delays
 			element.style.animationDelay = `${Math.random() * 6}s`;
 
 			// Random slight rotation
 			const rotation = Math.random() * 30 - 15;
-			element.style.transform += ` rotate(${rotation}deg)`;
-
-			// Add hover effects
-			element.addEventListener("mouseenter", () => {
-				element.style.opacity = "0.6";
-				element.style.transform += " scale(1.15)";
-				element.style.filter = "drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))";
-			});
-
-			element.addEventListener("mouseleave", () => {
-				element.style.opacity = "0.25";
-				element.style.transform = element.style.transform.replace(
-					" scale(1.15)",
-					""
-				);
-				element.style.filter = "drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1))";
-			});
+			element.style.transform = `rotate(${rotation}deg)`;
 		});
-
-		// Add parallax effect on mouse move
-		const handleMouseMove = (e) => {
-			const mouseX = e.clientX / window.innerWidth;
-			const mouseY = e.clientY / window.innerHeight;
-
-			graphicElements.forEach((element, index) => {
-				const speed = ((index % 3) + 1) * 0.5;
-				const x = (mouseX - 0.5) * speed;
-				const y = (mouseY - 0.5) * speed;
-
-				element.style.transform += ` translate(${x}px, ${y}px)`;
-			});
-		};
-
-		document.addEventListener("mousemove", handleMouseMove);
-
-		// Cleanup event listeners on component unmount
-		return () => {
-			document.removeEventListener("mousemove", handleMouseMove);
-			graphicElements.forEach((element) => {
-				element.removeEventListener("mouseenter", () => {});
-				element.removeEventListener("mouseleave", () => {});
-			});
-		};
 	}, []);
 
 	return (
-		<div className="relative w-screen h-full overflow-hidden bg-gradient-to-br from-white via-gray-50 to-gray-100">
+		<div className="relative w-full h-full overflow-hidden bg-white">
 			{/* Grid Pattern */}
-			<div className="absolute inset-0 bg-[linear-gradient(rgba(148,163,184,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.1)_1px,transparent_1px)] bg-[length:50px_50px]"></div>
+			<div className="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,0.1)_1px,transparent_1px)] bg-[length:50px_50px]"></div>
 
 			{/* Pattern Layer */}
 			<div
-				className="absolute inset-0 opacity-[0.03]"
+				className="absolute inset-0 opacity-[0.05]"
 				style={{
-					backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M30 30c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20zm0 0c0 11.046 8.954 20 20 20s20-8.954 20-20-8.954-20-20-20-20 8.954-20 20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+					backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.2'%3E%3Cpath d='M30 30c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20zm0 0c0 11.046 8.954 20 20 20s20-8.954 20-20-8.954-20-20-20-20 8.954-20 20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
 				}}
 			></div>
 
@@ -75,18 +31,18 @@ const BG = ({
 			<div className="absolute inset-0 pointer-events-none">
 				{/* Analytics Charts */}
 				<svg
-					className="graphic-element absolute top-[10%] left-[15%] w-20 h-20 sm:w-28 sm:h-28 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute top-[10%] left-[15%] w-20 h-20 sm:w-28 sm:h-28 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<defs>
 						<linearGradient id="chartGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
 							<stop
 								offset="0%"
-								style={{ stopColor: "#6366f1", stopOpacity: 1 }}
+								style={{ stopColor: "#8b5cf6", stopOpacity: 1 }}
 							/>
 							<stop
 								offset="100%"
-								style={{ stopColor: "#4338ca", stopOpacity: 0.8 }}
+								style={{ stopColor: "#ec4899", stopOpacity: 0.8 }}
 							/>
 						</linearGradient>
 					</defs>
@@ -122,31 +78,31 @@ const BG = ({
 						fill="url(#chartGrad1)"
 						rx="1"
 					/>
-					<circle cx="4" cy="2" r="1.5" fill="#818cf8" />
-					<circle cx="10" cy="6" r="1.5" fill="#818cf8" />
-					<circle cx="16" cy="0.5" r="1.5" fill="#818cf8" />
-					<circle cx="21" cy="8" r="1.5" fill="#818cf8" />
+					<circle cx="4" cy="2" r="1.5" fill="#a78bfa" />
+					<circle cx="10" cy="6" r="1.5" fill="#a78bfa" />
+					<circle cx="16" cy="0.5" r="1.5" fill="#a78bfa" />
+					<circle cx="21" cy="8" r="1.5" fill="#a78bfa" />
 					<path
 						d="M4 2L10 6L16 0.5L21 8"
-						stroke="#a78bfa"
+						stroke="#d946ef"
 						strokeWidth="2"
 						fill="none"
 					/>
 				</svg>
 
 				<svg
-					className="graphic-element absolute top-[20%] right-[20%] w-16 h-16 sm:w-20 sm:h-20 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute top-[20%] right-[20%] w-16 h-16 sm:w-20 sm:h-20 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<defs>
 						<linearGradient id="pieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
 							<stop
 								offset="0%"
-								style={{ stopColor: "#f59e0b", stopOpacity: 1 }}
+								style={{ stopColor: "#ec4899", stopOpacity: 1 }}
 							/>
 							<stop
 								offset="50%"
-								style={{ stopColor: "#ec4899", stopOpacity: 1 }}
+								style={{ stopColor: "#10b981", stopOpacity: 1 }}
 							/>
 							<stop
 								offset="100%"
@@ -172,7 +128,7 @@ const BG = ({
 						strokeDasharray="25.13 50.27"
 						strokeDashoffset="25.13"
 					/>
-					<circle cx="12" cy="12" r="4" fill="#f3f4f6" />
+					<circle cx="12" cy="12" r="4" fill="#e5e7eb" />
 					<text x="12" y="16" textAnchor="middle" fill="#6b7280" fontSize="4">
 						60%
 					</text>
@@ -180,7 +136,7 @@ const BG = ({
 
 				{/* Social Media Icons */}
 				<svg
-					className="graphic-element absolute top-[30%] left-[5%] w-12 h-12 sm:w-16 sm:h-16 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute top-[30%] left-[5%] w-12 h-12 sm:w-16 sm:h-16 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<defs>
@@ -193,11 +149,11 @@ const BG = ({
 						>
 							<stop
 								offset="0%"
-								style={{ stopColor: "#1da1f2", stopOpacity: 1 }}
+								style={{ stopColor: "#3b82f6", stopOpacity: 1 }}
 							/>
 							<stop
 								offset="100%"
-								style={{ stopColor: "#0891b2", stopOpacity: 1 }}
+								style={{ stopColor: "#1e40af", stopOpacity: 1 }}
 							/>
 						</linearGradient>
 					</defs>
@@ -216,30 +172,30 @@ const BG = ({
 				</svg>
 
 				<svg
-					className="graphic-element absolute bottom-[30%] right-[10%] w-16 h-16 sm:w-24 sm:h-24 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute bottom-[30%] right-[10%] w-16 h-16 sm:w-24 sm:h-24 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<defs>
 						<radialGradient id="instaGrad" cx="30%" cy="40%">
 							<stop
 								offset="0%"
-								style={{ stopColor: "#fdf497", stopOpacity: 1 }}
+								style={{ stopColor: "#f472b6", stopOpacity: 1 }}
 							/>
 							<stop
 								offset="25%"
-								style={{ stopColor: "#fdf497", stopOpacity: 1 }}
+								style={{ stopColor: "#ec4899", stopOpacity: 1 }}
 							/>
 							<stop
 								offset="50%"
-								style={{ stopColor: "#fd5949", stopOpacity: 1 }}
+								style={{ stopColor: "#db2777", stopOpacity: 1 }}
 							/>
 							<stop
 								offset="75%"
-								style={{ stopColor: "#d6249f", stopOpacity: 1 }}
+								style={{ stopColor: "#8b5cf6", stopOpacity: 1 }}
 							/>
 							<stop
 								offset="100%"
-								style={{ stopColor: "#285AEB", stopOpacity: 1 }}
+								style={{ stopColor: "#3b82f6", stopOpacity: 1 }}
 							/>
 						</radialGradient>
 					</defs>
@@ -274,18 +230,18 @@ const BG = ({
 
 				{/* Marketing Elements */}
 				<svg
-					className="graphic-element absolute top-[15%] left-[75%] w-14 h-14 sm:w-20 sm:h-20 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute top-[15%] left-[75%] w-14 h-14 sm:w-20 sm:h-20 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<defs>
 						<linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
 							<stop
 								offset="0%"
-								style={{ stopColor: "#fbbf24", stopOpacity: 1 }}
+								style={{ stopColor: "#facc15", stopOpacity: 1 }}
 							/>
 							<stop
 								offset="100%"
-								style={{ stopColor: "#f59e0b", stopOpacity: 1 }}
+								style={{ stopColor: "#eab308", stopOpacity: 1 }}
 							/>
 						</linearGradient>
 					</defs>
@@ -293,13 +249,13 @@ const BG = ({
 						d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
 						fill="url(#starGrad)"
 					/>
-					<circle cx="12" cy="9" r="1" fill="#fde047" />
-					<circle cx="8" cy="12" r="0.5" fill="#fde047" />
-					<circle cx="16" cy="12" r="0.5" fill="#fde047" />
+					<circle cx="12" cy="9" r="1" fill="#fef9c3" />
+					<circle cx="8" cy="12" r="0.5" fill="#fef9c3" />
+					<circle cx="16" cy="12" r="0.5" fill="#fef9c3" />
 				</svg>
 
 				<svg
-					className="graphic-element absolute bottom-[20%] left-[20%] w-16 h-16 sm:w-24 sm:h-24 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute bottom-[20%] left-[20%] w-16 h-16 sm:w-24 sm:h-24 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<defs>
@@ -330,21 +286,20 @@ const BG = ({
 					<circle cx="19.5" cy="14" r="0.5" fill="#6ee7b7" />
 				</svg>
 
-				{/* Additional Elements */}
 				<svg
-					className="graphic-element absolute top-[60%] right-[30%] w-10 h-10 sm:w-12 sm:h-12 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute top-[60%] right-[30%] w-10 h-10 sm:w-12 sm:h-12 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<path
 						d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10Z"
-						fill="#ef4444"
-						stroke="#dc2626"
+						fill="#f43f5e"
+						stroke="#e11d48"
 						strokeWidth="0.5"
 					/>
 				</svg>
 
 				<svg
-					className="graphic-element absolute top-[70%] left-[60%] w-10 h-10 sm:w-12 sm:h-12 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute top-[70%] left-[60%] w-10 h-10 sm:w-12 sm:h-12 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<path
@@ -356,7 +311,7 @@ const BG = ({
 				</svg>
 
 				<svg
-					className="graphic-element absolute top-[45%] left-[10%] w-8 h-8 sm:w-10 sm:h-10 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute top-[45%] left-[10%] w-8 h-8 sm:w-10 sm:h-10 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<path
@@ -368,7 +323,7 @@ const BG = ({
 				</svg>
 
 				<svg
-					className="graphic-element absolute bottom-[40%] right-[5%] w-14 h-14 sm:w-20 sm:h-20 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute bottom-[40%] right-[5%] w-14 h-14 sm:w-20 sm:h-20 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<path
@@ -380,7 +335,7 @@ const BG = ({
 				</svg>
 
 				<svg
-					className="graphic-element absolute top-[5%] left-[50%] w-16 h-16 sm:w-20 sm:h-20 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute top-[5%] left-[50%] w-16 h-16 sm:w-20 sm:h-20 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<path
@@ -392,7 +347,7 @@ const BG = ({
 				</svg>
 
 				<svg
-					className="graphic-element absolute bottom-[10%] left-[40%] w-12 h-12 sm:w-16 sm:h-16 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute bottom-[10%] left-[40%] w-12 h-12 sm:w-16 sm:h-16 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<circle
@@ -421,7 +376,7 @@ const BG = ({
 				</svg>
 
 				<svg
-					className="graphic-element absolute top-[40%] right-[45%] w-16 h-16 sm:w-24 sm:h-24 opacity-25 animate-flowFloat drop-shadow-md"
+					className="graphic-element absolute top-[40%] right-[45%] w-16 h-16 sm:w-24 sm:h-24 opacity-40 animate-flowFloat drop-shadow-md"
 					viewBox="0 0 24 24"
 				>
 					<path
@@ -438,24 +393,14 @@ const BG = ({
 				className="absolute inset-0"
 				style={{
 					backgroundImage: `
-            radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
-            radial-gradient(circle at 80% 20%, rgba(236, 72, 153, 0.05) 0%, transparent 50%),
-            radial-gradient(circle at 40% 80%, rgba(16, 185, 129, 0.05) 0%, transparent 50%)
+            radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+            radial-gradient(circle at 80% 20%, rgba(236, 72, 153, 0.15) 0%, transparent 50%),
+            radial-gradient(circle at 40% 80%, rgba(16, 185, 129, 0.15) 0%, transparent 50%)
           `,
 				}}
 			></div>
-
-			{/* Center Content Area */}
-			{/* <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
-				<h1 className="text-4xl sm:text-5xl font-bold text-gray-800 drop-shadow-md mb-4 tracking-wider">
-					{centerText}
-				</h1>
-				<p className="text-lg sm:text-xl font-light text-gray-500 tracking-wide">
-					{subtitle}
-				</p>
-			</div> */}
 		</div>
 	);
 };
 
-export default BG;
+export default React.memo(BG);

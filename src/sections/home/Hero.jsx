@@ -115,14 +115,12 @@ export default function Hero() {
 							}`}
 							style={{ transitionDelay: "0.8s" }}
 						>
-							<Link href="/projects">
-								<Button href="#services" className="text-lg px-10 py-5">
-									{t("hero.button1")}
-								</Button>
-							</Link>
+							<Button href="/contact" className="text-lg px-10 py-5">
+								{t("hero.button1")}
+							</Button>
 							<Button
 								variant="outline"
-								href="#reel"
+								href="/projects"
 								className="text-lg px-10 py-5"
 							>
 								{t("hero.button2")}

@@ -17,7 +17,7 @@ import ProjectDetail from "./pages/ProjectsDetail";
 
 function App() {
 	return (
-		<div className="font-sans -mt-20">
+		<div className="font-sans overflow-hidden -mt-20">
 			<Navbar />
 			<ScrollToTop />
 			<main className="pt-20">

@@ -34,8 +34,8 @@ export default function Blog() {
 				<meta property="og:image" content="https://entroweb.com/logo.png" />
 			</Helmet>
 
-			<section className="min-h-screen mt-10 py-16 px-4 sm:px-6 lg:px-20 ">
-				<div className="absolute inset-0 -z-20 opacity-70 h-full">
+			<section className="min-h-screen flex items-center justify-start flex-col py-24 px-4 mx-auto  ">
+				<div className="absolute inset-0 -z-20 opacity-70">
 					<BG centerText="EntroWeb" subtitle="Digital Marketing Solutions" />
 				</div>
 
