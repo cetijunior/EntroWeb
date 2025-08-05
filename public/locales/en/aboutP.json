@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "badge": "About EntroWeb",
+    "headline": "Empowering Your Digital Success",
+    "subheadline": "We are a passionate team dedicated to transforming businesses through innovative digital marketing, SEO, PPC, and web development solutions."
+  },
+  "mission": {
+    "subtitle": "",
+    "processTitle": "Our Proven 6-D Process",
+    "processDescription": "A systematic approach that ensures consistent results and client success",
+    "badge": "Our Purpose",
+    "title": "Driving Digital Excellence",
+    "description": "We combine innovation, expertise, and dedication to deliver results that drive your business forward. With tailored strategies, cutting-edge tools, and a commitment to your success.",
+   "statsTitle": "Our Results Speak",
+   "statsDescription": "Numbers that showcase our commitment to excellence",
+   "whyUsTitle": "Why Choose Us?",
+   "whyUsDescription": "We don't just promise results – we deliver them consistently",
+    "tabs": [
+      {
+        "title": "Our Mission",
+        "content": "To empower businesses with innovative digital marketing solutions that drive measurable growth. We combine cutting-edge technology with creative strategies to help our clients dominate their digital landscape and achieve unprecedented success.",
+        "highlights": [
+          "Data-Driven Results",
+          "Innovative Solutions",
+          "Client Success Focus"
+        ]
+      },
+      {
+        "title": "Our Vision",
+        "content": "To be the leading digital marketing agency that transforms how businesses connect with their audiences. We envision a future where every business, regardless of size, has the tools and expertise to thrive in the digital world.",
+        "highlights": [
+          "Industry Leadership",
+          "Digital Transformation",
+          "Global Impact"
+        ]
+      },
+      {
+        "title": "Our Values",
+        "content": "We believe in transparency, innovation, and putting our clients first. Our core values guide every decision we make and every strategy we develop, ensuring that we deliver not just results, but lasting partnerships.",
+        "highlights": [
+          "Transparency",
+          "Innovation",
+          "Client Partnership"
+        ]
+      }
+    ],
+    "process": [
+      { "title": "Discover", "icon": "🔍", "description": "Understanding your business, goals, and target audience" },
+      { "title": "Define", "icon": "🎯", "description": "Crafting clear objectives and success metrics" },
+      { "title": "Design", "icon": "✨", "description": "Creating compelling strategies and creative concepts" },
+      { "title": "Develop", "icon": "🛠️", "description": "Building and implementing your digital solutions" },
+      { "title": "Deploy", "icon": "🚀", "description": "Launching campaigns with precision and monitoring" },
+      { "title": "Drive", "icon": "📈", "description": "Optimizing performance and driving continuous growth" }
+    ],
+    "stats": [
+      { "number": 87, "label": "Satisfied Clients", "suffix": "" },
+      { "number": 150, "label": "Projects Completed", "suffix": "" },
+      { "number": 28, "label": "Accolades Earned", "suffix": "" },
+      { "number": 56, "label": "Lines of Code", "suffix": "K+" }
+    ],
+    "achievements": [
+      { "text": "300% average growth in client ROI" },
+      { "text": "99% client retention rate" },
+      { "text": "Industry-recognized excellence" },
+      { "text": "Serving clients across 15+ countries" }
+    ]
+  },
+
+
+"team": {
+  "title": "Meet Our Experts",
+  "description": "Our team of creative professionals is committed to delivering innovative solutions with precision and passion.",
+  "members": [
+    { "role": "SEO Specialist" },
+    { "role": "PPC Manager" },
+    { "role": "Web Developer" }
+  ],
+  "bios": [
+    "Helping brands increase visibility and ranking through powerful SEO strategies.",
+    "Maximizing ROI with high-converting PPC campaigns and budget strategies.",
+    "Building user-first, performance-optimized websites that convert."
+  ]
+},
+
+  "cta": {
+    "title": "Ready to Grow Your Business?",
+    "description": "",
+    "button": "Get in Touch"
+  }
+}

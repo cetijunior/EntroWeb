@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "badge": "Chi è EntroWeb",
+    "headline": "Potenzia il tuo successo digitale",
+    "subheadline": "Siamo un team appassionato dedicato a trasformare le imprese attraverso soluzioni innovative di marketing digitale, SEO, PPC e sviluppo web."
+  },
+  "mission": {
+    "subtitle": "",
+    "processTitle": "Il nostro processo 6-D collaudato",
+    "processDescription": "Un approccio sistematico che garantisce risultati costanti e successo per i clienti",
+    "badge": "Il nostro scopo",
+    "title": "Guida all'eccellenza digitale",
+    "description": "Combiniamo innovazione, competenza e dedizione per ottenere risultati che spingono la tua azienda in avanti. Con strategie su misura, strumenti all'avanguardia e un impegno verso il tuo successo.",
+    "statsTitle": "I nostri risultati parlano",
+    "statsDescription": "Numeri che dimostrano il nostro impegno per l'eccellenza",
+    "whyUsTitle": "Perché sceglierci?",
+    "whyUsDescription": "Non promettiamo solo risultati: li forniamo costantemente",
+    "tabs": [
+      {
+        "title": "La nostra missione",
+        "content": "Potenziare le imprese con soluzioni di marketing digitale innovative che generano crescita misurabile. Combiniamo tecnologia all'avanguardia con strategie creative per aiutare i nostri clienti a dominare il panorama digitale.",
+        "highlights": ["Risultati basati sui dati", "Soluzioni innovative", "Focus sul successo del cliente"]
+      },
+      {
+        "title": "La nostra visione",
+        "content": "Essere l'agenzia di marketing digitale leader che trasforma il modo in cui le imprese si connettono con il loro pubblico. Immaginiamo un futuro in cui ogni azienda abbia gli strumenti per prosperare nel mondo digitale.",
+        "highlights": ["Leadership del settore", "Trasformazione digitale", "Impatto globale"]
+      },
+      {
+        "title": "I nostri valori",
+        "content": "Crediamo nella trasparenza, nell'innovazione e nel mettere i clienti al primo posto. I nostri valori fondamentali guidano ogni decisione che prendiamo e ogni strategia che sviluppiamo.",
+        "highlights": ["Trasparenza", "Innovazione", "Collaborazione con il cliente"]
+      }
+    ],
+    "process": [
+      { "title": "Scoprire", "icon": "🔍", "description": "Comprendere il tuo business, i tuoi obiettivi e il pubblico target" },
+      { "title": "Definire", "icon": "🎯", "description": "Stabilire obiettivi chiari e metriche di successo" },
+      { "title": "Progettare", "icon": "✨", "description": "Creare strategie convincenti e concetti creativi" },
+      { "title": "Sviluppare", "icon": "🛠️", "description": "Costruire e implementare soluzioni digitali" },
+      { "title": "Distribuire", "icon": "🚀", "description": "Lanciare le campagne con precisione e monitoraggio" },
+      { "title": "Guidare", "icon": "📈", "description": "Ottimizzare le prestazioni e favorire la crescita continua" }
+    ],
+    "stats": [
+      { "number": 87, "label": "Clienti soddisfatti", "suffix": "" },
+      { "number": 150, "label": "Progetti completati", "suffix": "" },
+      { "number": 28, "label": "Premi ricevuti", "suffix": "" },
+      { "number": 56, "label": "Linee di codice", "suffix": "K+" }
+    ],
+    "achievements": [
+      { "text": "Crescita media del ROI dei clienti del 300%" },
+      { "text": "Tasso di fidelizzazione del 99%" },
+      { "text": "Eccellenza riconosciuta dal settore" },
+      { "text": "Clienti in oltre 15 paesi" }
+    ]
+  },
+ "team": {
+  "title": "Incontra i nostri esperti",
+  "description": "Il nostro team di professionisti creativi è impegnato a fornire soluzioni innovative con precisione e passione.",
+  "members": [
+    { "role": "Specialista SEO" },
+    { "role": "Responsabile PPC" },
+    { "role": "Sviluppatore Web" }
+  ],
+  "bios": [
+    "Aiutiamo i brand ad aumentare la visibilità e il posizionamento con strategie SEO efficaci.",
+    "Massimizziamo il ROI con campagne PPC ad alta conversione e strategie di budget.",
+    "Costruiamo siti web ottimizzati per prestazioni e conversioni."
+  ]
+},
+  "cta": {
+    "title": "Pronto a far crescere la tua attività?",
+    "description": "",
+    "button": "Contattaci"
+  }
+}

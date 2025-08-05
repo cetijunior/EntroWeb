@@ -1,5 +1,14 @@
+import React from "react";
 import Contact from "../sections/Contact";
+import ContactForm from "../sections/ContactForm";
 
-export default function ContactPage() {
-    return <Contact />;
+function ContactPage() {
+	return (
+		<div>
+			<Contact />
+			<ContactForm />
+		</div>
+	);
 }
+
+export default ContactPage;

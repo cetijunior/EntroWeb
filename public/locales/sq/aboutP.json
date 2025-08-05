@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "badge": "Rreth EntroWeb",
+    "headline": "Fuqizojmë suksesin tuaj digjital",
+    "subheadline": "Ne jemi një ekip pasionant i përkushtuar për të transformuar bizneset përmes marketingut digjital, SEO, PPC dhe zgjidhjeve të zhvillimit të faqeve."
+  },
+  "mission": {
+    "subtitle": "",
+    "processTitle": "Procesi ynë i dëshmuar 6-D",
+    "processDescription": "Një qasje sistematike që garanton rezultate të qëndrueshme dhe sukses për klientët",
+    "badge": "Qëllimi ynë",
+    "title": "Drejtojmë Ekselencën Digjitale",
+    "description": "Ne kombinojmë inovacionin, ekspertizën dhe përkushtimin për të ofruar rezultate që çojnë përpara biznesin tuaj. Me strategji të personalizuara, mjete moderne dhe përkushtim ndaj suksesit tuaj.",
+    "statsTitle": "Rezultatet tona flasin vetë",
+    "statsDescription": "Numra që tregojnë përkushtimin tonë për cilësi",
+    "whyUsTitle": "Pse të na zgjidhni ne?",
+    "whyUsDescription": "Ne nuk premtojmë thjesht rezultate – ne i ofrojmë ato vazhdimisht",
+    "tabs": [
+      {
+        "title": "Misioni ynë",
+        "content": "Të fuqizojmë bizneset me zgjidhje inovative të marketingut digjital që sjellin rritje të matshme. Ne kombinojmë teknologji të avancuar me strategji kreative për të ndihmuar klientët tanë të dominojnë tregun digjital.",
+        "highlights": ["Rezultate të bazuara në të dhëna", "Zgjidhje inovative", "Fokus te suksesi i klientit"]
+      },
+      {
+        "title": "Vizioni ynë",
+        "content": "Të jemi agjencia kryesore e marketingut digjital që transformon mënyrën se si bizneset lidhen me audiencën e tyre. Ne shohim një të ardhme ku çdo biznes ka mundësinë të lulëzojë në botën digjitale.",
+        "highlights": ["Lidership në industri", "Transformim digjital", "Ndikim global"]
+      },
+      {
+        "title": "Vlerat tona",
+        "content": "Ne besojmë në transparencë, inovacion dhe vendosjen e klientit në qendër. Vlerat tona udhëheqin çdo vendim dhe strategji që ndërtojmë.",
+        "highlights": ["Transparencë", "Inovacion", "Partneritet me klientin"]
+      }
+    ],
+    "process": [
+      { "title": "Zbulo", "icon": "🔍", "description": "Kuptimi i biznesit, qëllimeve dhe audiencës suaj" },
+      { "title": "Përcakto", "icon": "🎯", "description": "Vendosja e objektivave të qarta dhe metrikave të suksesit" },
+      { "title": "Dizajno", "icon": "✨", "description": "Krijimi i strategjive dhe koncepteve kreative" },
+      { "title": "Zhvillo", "icon": "🛠️", "description": "Ndërtimi dhe zbatimi i zgjidhjeve tuaja digjitale" },
+      { "title": "Lanco", "icon": "🚀", "description": "Nisja e fushatave me saktësi dhe monitorim" },
+      { "title": "Rrit", "icon": "📈", "description": "Optimizimi i performancës dhe rritja e qëndrueshme" }
+    ],
+    "stats": [
+      { "number": 87, "label": "Klientë të kënaqur", "suffix": "" },
+      { "number": 150, "label": "Projekte të përfunduara", "suffix": "" },
+      { "number": 28, "label": "Çmime të fituara", "suffix": "" },
+      { "number": 56, "label": "Rreshta kodi", "suffix": "K+" }
+    ],
+    "achievements": [
+      { "text": "Rritje mesatare prej 300% në ROI të klientëve" },
+      { "text": "Shkallë mbajtjeje klientësh 99%" },
+      { "text": "Ekselencë e njohur nga industria" },
+      { "text": "Klientë në më shumë se 15 shtete" }
+    ]
+  },
+  "team": {
+  "title": "Njihuni me Ekspertët Tanë",
+  "description": "Ekipi ynë i profesionistëve kreativë është i përkushtuar për të ofruar zgjidhje inovative me saktësi dhe pasion.",
+  "members": [
+    { "role": "Specialist SEO" },
+    { "role": "Menaxher PPC" },
+    { "role": "Zhvillues Web" }
+  ],
+  "bios": [
+    "Ndihmojmë markat të rrisin dukshmërinë dhe pozicionimin me strategji të fuqishme SEO.",
+    "Maksimizojmë ROI-në me fushata PPC me performancë të lartë dhe strategji buxhetore.",
+    "Ndërtojmë faqe që janë të optimizuara për performancë dhe konvertime."
+  ]
+},
+  "cta": {
+    "title": "Gati të rritni biznesin tuaj?",
+    "description": "",
+    "button": "Na Kontaktoni"
+  }
+}
