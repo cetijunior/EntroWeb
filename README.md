@@ -40,62 +40,14 @@ A portfolio-driven marketing site that blends beautiful visuals with smooth UX �
 
 ---
 
-src/
-│
-├── assets/                     # Static assets (logos, images, icons)
-│   ├── logo.svg
-│   └── ...
-│
-├── components/                 # Reusable UI components
-│   ├── Navbar.jsx
-│   ├── Footer.jsx
-│   ├── HeroSection.jsx
-│   ├── BG.jsx
-│   ├── BrandSection.jsx
-│   ├── CTA.jsx
-│   ├── AboutHero.jsx
-│   └── ...
-│
-├── pages/                      # Page-level components
-│   ├── Home.jsx
-│   ├── About.jsx
-│   ├── Services.jsx
-│   ├── Projects.jsx
-│   ├── ProjectDetail.jsx
-│   ├── Blog.jsx
-│   ├── Contact.jsx
-│   ├── PrivacyPolicy.jsx
-│   ├── TermsOfUse.jsx
-│   └── NotFound.jsx
-│
-├── locales/                    # i18n translations
-│   ├── en/
-│   │   ├── common.json
-│   │   ├── projects.json
-│   │   ├── brands.json
-│   │   └── ...
-│   ├── sq/
-│   │   ├── common.json
-│   │   ├── projects.json
-│   │   ├── brands.json
-│   │   └── ...
-│   └── it/
-│       ├── common.json
-│       ├── projects.json
-│       ├── brands.json
-│       └── ...
-│
-├── hooks/                      # Custom React hooks
-│   └── useInViewAnimation.js
-│
-├── styles/                     # Tailwind or global styles
-│   └── index.css
-│
-├── App.jsx                     # Main App component with router + scroll restore
-├── main.jsx                    # ReactDOM entry point
-├── routes.jsx                  # React Router route definitions
-├── i18n.js                     # i18next configuration
-└── vite.config.js              # Vite bundler config
+[File Structure 1/2]
+
+<img width="655" height="765" alt="Screenshot 2025-09-24 103702" src="https://github.com/user-attachments/assets/6d72bf2a-c899-49e2-96a7-d2d3164830a2" />
+
+[File Structure 2/2]
+
+<img width="667" height="688" alt="Screenshot 2025-09-24 103720" src="https://github.com/user-attachments/assets/b0511a8f-5dba-44ac-b0ff-b571433d760b" />
+
 
 
 ## 🧠 Folder Breakdown
